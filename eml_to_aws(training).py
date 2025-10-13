@@ -269,7 +269,7 @@ def prompts_to_jsonl(input_json):
 # MAIN
 # ==========================================================
 if __name__ == "__main__":
-    eml_folder = r"D:\test\10kmails\distill_dump_emails"  # only input folder
+    eml_folder = r""  #input folder
 
     # 1. Process all emails → JSON
     emails_json = process_eml_folder(eml_folder)
@@ -279,3 +279,4 @@ if __name__ == "__main__":
 
     # 3. Prompts → JSONL
     prompts_to_jsonl(prompts_json)
+
